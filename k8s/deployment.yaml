@@ -1,0 +1,36 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: housing-price-api
+  labels:
+    app: housing-price-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: housing-price-api
+  template:
+    metadata:
+      labels:
+        app: housing-price-api
+    spec:
+      containers:
+        - name: housing-price-api
+          image: localhost:5000/housing-price-api:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            failureThreshold: 6
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"

@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "trained_at": "2026-06-21T12:07:57Z",
+  "features": [
+    {
+      "name": "area",
+      "dtype": "str"
+    },
+    {
+      "name": "rooms",
+      "dtype": "int64"
+    },
+    {
+      "name": "size",
+      "dtype": "float64"
+    },
+    {
+      "name": "monthlyFee",
+      "dtype": "int64"
+    }
+  ],
+  "area_values": [
+    "Gärdet",
+    "Hägersten",
+    "Hässelby",
+    "Kungsholmen",
+    "Norrmalm",
+    "Skärholmen",
+    "Södermalm",
+    "Vasastan",
+    "Östermalm"
+  ],
+  "onnx_opset": 17,
+  "onnx_filename": "housing-price-model.onnx"
+}

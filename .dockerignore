@@ -1,0 +1,20 @@
+# Build artefacts
+**/bin/
+**/obj/
+
+# Python training environment and generated data (not needed at runtime)
+.venv/
+training/
+data/
+
+# Test project
+tests/
+
+# Dev / repo tooling
+.git/
+.gitignore
+.vs/
+*.user
+*.md
+k8s/
+monitoring/

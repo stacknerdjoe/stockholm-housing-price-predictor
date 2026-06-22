@@ -1,0 +1,30 @@
+﻿# .NET build output
+**/bin/
+**/obj/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Training artifacts (generated, not source)
+data/stockholm-housing.csv
+models/housing-price-pipeline.joblib
+
+# Keep the ONNX model and metadata since the API needs them
+!models/housing-price-model.onnx
+!models/model-metadata.json
+
+# Docker
+*.tar
+
+# Environment files
+.env
+.env.*
+
+# Claude Code
+.claude/settings.local.json
+
+# Coverage reports
+**/coverage/
+**/TestResults/
