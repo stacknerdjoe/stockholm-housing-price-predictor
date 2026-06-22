@@ -1,4 +1,4 @@
-# Stockholm Housing Price Predictor
+# .NET Housing Price API
 
 [![Build](https://github.com/stacknerdjoe/dotnet-housing-price-api/actions/workflows/build.yml/badge.svg)](https://github.com/stacknerdjoe/dotnet-housing-price-api/actions/workflows/build.yml)
 [![Tests](https://github.com/stacknerdjoe/dotnet-housing-price-api/actions/workflows/test.yml/badge.svg)](https://github.com/stacknerdjoe/dotnet-housing-price-api/actions/workflows/test.yml)
