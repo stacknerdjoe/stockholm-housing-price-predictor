@@ -1,7 +1,7 @@
 # Stockholm Housing Price Predictor
 
-[![Build](https://github.com/stacknerdjoe/stockholm-housing-price-predictor/actions/workflows/build.yml/badge.svg)](https://github.com/stacknerdjoe/stockholm-housing-price-predictor/actions/workflows/build.yml)
-[![Tests](https://github.com/stacknerdjoe/stockholm-housing-price-predictor/actions/workflows/test.yml/badge.svg)](https://github.com/stacknerdjoe/stockholm-housing-price-predictor/actions/workflows/test.yml)
+[![Build](https://github.com/stacknerdjoe/dotnet-housing-price-api/actions/workflows/build.yml/badge.svg)](https://github.com/stacknerdjoe/dotnet-housing-price-api/actions/workflows/build.yml)
+[![Tests](https://github.com/stacknerdjoe/dotnet-housing-price-api/actions/workflows/test.yml/badge.svg)](https://github.com/stacknerdjoe/dotnet-housing-price-api/actions/workflows/test.yml)
 
 I built a REST API that predicts Stockholm apartment prices using a machine learning model. Here's what I built and how it fits together:
 
